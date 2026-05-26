@@ -1,0 +1,5 @@
+services: 
+  app:
+    build: .
+    container_name: cloud_devops_app
+    command: python app.py
